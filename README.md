@@ -7,7 +7,7 @@ Benchmark gets all of the testing done in UserBenchmark and allows user to creat
 After downloading the github repo()
 ###Open the terminal and browse to the downloaded files.
 
-##### run (npm i)
+# run (npm i)
 
 Once all of the packages are downloaded run (npm start).
 
