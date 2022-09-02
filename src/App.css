@@ -1,38 +1,114 @@
 .App {
+  background-color: #393d46;
+  text-align: center;
+  color: #e4e1d0;
+}
+.Title {
+  color: #00acb5;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Button {
+  background-color: #393d46;
+  color: #00acb5;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 16px;
+  outline: none;
+  border-color: #eeeeee;
+  padding: 1% 2%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Button2 {
+  background-color: #393d46;
+  color: #00acb5;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 16px;
+  outline: none;
+  border-color: #eeeeee;
+  padding: 1% 2%;
 }
 
 .App-link {
   color: #61dafb;
 }
+.link {
+  color: #00acb5;
+  text-decoration: none;
+}
+.Navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #222832;
+  min-height: 2rem;
+  align-items: center;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.Parts {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  width: 45%;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #222832;
+  border-radius: 5px;
+  padding-bottom: 5px;
+}
+.Name {
+  text-align: center;
+}
+.Layout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 100vw;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+}
+#root {
+  background-color: #393d46;
+  color: #e4e1d0;
+}
+html {
+  background-color: #393d46;
+}
+@media screen and (max-width: 819px) {
+  #root {
+    font-size: 8px;
   }
-  to {
-    transform: rotate(360deg);
+  .Layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 100vw;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+  }
+  .Parts {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+    width: 90%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #222832;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .Button {
+    font-size: 8px;
   }
 }
